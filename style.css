@@ -51,11 +51,13 @@ section {
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
+    
 }
 
 .name {
     height: 3.5rem;
     width: 3.5rem;
+    
 }
 
 .navbar a {
@@ -89,6 +91,7 @@ section {
     animation: floatImage 4s ease-in-out infinite;
     border-radius: 50%;
     border: 2px solid #ff5202ee;
+    
 }
 
 @keyframes floatImage {
@@ -449,6 +452,9 @@ span {
 
 .contact .heading {
     font-size: 6rem;
+
+
+
     text-align: center;
     margin-top: 7rem;
     margin-bottom: 5rem;
