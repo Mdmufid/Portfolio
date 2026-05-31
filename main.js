@@ -46,14 +46,14 @@ ScrollReveal({
     duration: 2000,
     delay: 200,
 });
-ScrollReveal().reveal('.home-content, heading', { origin: 'top' });
-ScrollReveal().reveal('.home-ing. services-container, portfolio-box, contact form', { origin: 'buttom' });
-ScrollReveal().reveal('.home-contact h1', { origin: 'left' });
-ScrollReveal().reveal('.home-contact p', { origin: 'right' });
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .skills-container, .portfolio-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .home-content p', { origin: 'left' });
+ScrollReveal().reveal('.social-media', { origin: 'right' });
 
 /*===== typed js =====*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Software Developer', 'Web Designer'],
+    strings: ['Software Developer', 'MERN Stack Developer', 'UI Designer'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
